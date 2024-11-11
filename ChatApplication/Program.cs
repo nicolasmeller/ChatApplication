@@ -1,3 +1,9 @@
+
+
+using Infrastrucutre.Context;
+using Microsoft.EntityFrameworkCore;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +13,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<ChatDatabase>(options=> options.UseNpgsql("Host=localhost;Port=5432;Database=ChatDatabase;Username=postgres;Password=nicolas"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
