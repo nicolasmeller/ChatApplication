@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatApplication", "ChatAppl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{519E7C55-FF8B-4F37-9A00-64D560AF1F4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastrucutre", "Infrastrucutre\Infrastrucutre.csproj", "{913D3130-CBF7-4305-AD0B-9BE850209A1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastrucutre\Infrastructure.csproj", "{913D3130-CBF7-4305-AD0B-9BE850209A1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,6 +1,5 @@
 
-
-using Infrastrucutre.Context;
+using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 
 

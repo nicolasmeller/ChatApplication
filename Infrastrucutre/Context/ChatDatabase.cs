@@ -1,7 +1,7 @@
-﻿using Infrastrucutre.Entities;
+﻿using Infrastructure.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace Infrastrucutre.Context
+namespace Infrastructure.Context
 {
     public class ChatDatabase : DbContext
     {
